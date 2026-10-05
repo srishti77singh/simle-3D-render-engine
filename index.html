@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srishti Singh</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+    </button>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="profile-section">
+                    <div class="profile-image">
+                        <img src="profile.jpg" alt="Profile" id="profile-img" onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=\'display:flex;align-items:center;justify-content:center;width:100%;height:100%;color:var(--text-muted);font-size:3rem;\'>👤</span>'">
+                    </div>
+                </div>
+                <div class="intro-section">
+                    <p class="greeting">Hi, I'm</p>
+                    <h1 class="name" id="name">Loading...</h1>
+                    <p class="tagline" id="tagline">Loading...</p>
+                    <p class="description" id="description">Loading...</p>
+                    
+                    <!-- Social Links -->
+                    <div class="social-links" id="social-links">
+                        <!-- Social links will be loaded dynamically -->
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- GitHub Contribution Graph -->
+        <section class="contributions">
+            <h2 class="section-title">GitHub Contributions</h2>
+            <div class="contribution-graph">
+                <img src="" alt="GitHub Contribution Graph" class="gh-chart" id="gh-chart">
+            </div>
+        </section>
+
+        <!-- Navigation Links -->
+        <nav class="section-nav">
+            <button class="nav-btn" data-section="proof-of-work">Proof of Work</button>
+            <button class="nav-btn" data-section="blogs">Blogs</button>
+            <button class="nav-btn" data-section="call">Book a Call</button>
+        </nav>
+
+        <!-- Featured Projects -->
+        <section class="featured-projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid" id="featured-projects">
+                <!-- Projects will be loaded dynamically -->
+            </div>
+        </section>
+
+        <!-- Tech Stack -->
+        <section class="tech-stack-section">
+            <h2 class="section-title">Tech Stack</h2>
+            <div class="tech-tags" id="tech-stack">
+                <!-- Tech stack will be loaded dynamically -->
+            </div>
+        </section>
+
+        <!-- Slide Panels -->
+        <div class="slide-panel" id="proof-of-work-panel">
+            <div class="slide-content">
+                <button class="close-btn" aria-label="Close">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+                <h2 class="slide-title">Proof of Work</h2>
+                <p class="slide-description">All projects from GitHub</p>
+                <div id="proof-of-work-content" class="slide-grid">
+                    <!-- Content will be loaded dynamically -->
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-panel" id="blogs-panel">
+            <div class="slide-content">
+                <button class="close-btn" aria-label="Close">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+                <h2 class="slide-title">Blogs & Research</h2>
+                <p class="slide-description">Research papers, articles, and blog posts</p>
+                <div id="blogs-content" class="slide-grid">
+                    <!-- Content will be loaded dynamically -->
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-panel" id="call-panel">
+            <div class="slide-content">
+                <button class="close-btn" aria-label="Close">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+                <h2 class="slide-title">Book a Call</h2>
+                <p class="slide-description">Let's discuss opportunities and collaborate</p>
+                <div class="call-content" id="call-content">
+                    <!-- Content will be loaded dynamically -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 <span id="footer-name">Loading...</span>. Built with simplicity.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

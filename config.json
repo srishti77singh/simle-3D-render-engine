@@ -1,0 +1,102 @@
+{
+  "profile": {
+    "name": "Srishti Singh",
+    "tagline": "AI Enthusiast & Developer",
+    "description": "I'm currently focused on building AI-powered applications and exploring machine learning research. Passionate about creating innovative solutions at the intersection of AI and software development.",
+    "email": "your.email@example.com",
+    "github": "srishti77singh",
+    "twitter": "Srishti77singh",
+    "linkedin": "",
+    "calendly": "your-calendly-link"
+  },
+  "techStack": [
+    {
+      "name": "Python",
+      "category": "Languages"
+    },
+    {
+      "name": "TypeScript",
+      "category": "Languages"
+    },
+    {
+      "name": "JavaScript",
+      "category": "Languages"
+    },
+    {
+      "name": "PyTorch",
+      "category": "Frameworks"
+    },
+    {
+      "name": "TensorFlow",
+      "category": "Frameworks"
+    },
+    {
+      "name": "React",
+      "category": "Frameworks"
+    },
+    {
+      "name": "Next.js",
+      "category": "Frameworks"
+    },
+    {
+      "name": "Machine Learning",
+      "category": "Skills"
+    },
+    {
+      "name": "Deep Learning",
+      "category": "Skills"
+    },
+    {
+      "name": "NLP",
+      "category": "Skills"
+    },
+    {
+      "name": "Computer Vision",
+      "category": "Skills"
+    },
+    {
+      "name": "Data Science",
+      "category": "Skills"
+    }
+  ],
+  "featuredProjects": [
+    {
+      "name": "Project Name 1",
+      "description": "A brief description of your featured project. Highlight the key features and technologies used.",
+      "githubUrl": "https://github.com/srishti77singh/project1",
+      "liveUrl": "",
+      "stars": 0,
+      "language": "Python"
+    },
+    {
+      "name": "Project Name 2",
+      "description": "Another featured project description. Explain what makes this project special.",
+      "githubUrl": "https://github.com/srishti77singh/project2",
+      "liveUrl": "",
+      "stars": 0,
+      "language": "TypeScript"
+    },
+    {
+      "name": "Project Name 3",
+      "description": "Third featured project description. Add your most impressive work here.",
+      "githubUrl": "https://github.com/srishti77singh/project3",
+      "liveUrl": "",
+      "stars": 0,
+      "language": "Python"
+    }
+  ],
+  "blogs": [
+    {
+      "title": "Coming Soon",
+      "description": "Research on advanced machine learning techniques and AI applications",
+      "type": "Research Paper",
+      "url": ""
+    },
+    {
+      "title": "Coming Soon",
+      "description": "Thoughts on AI, machine learning, and software development",
+      "type": "Blog Post",
+      "url": ""
+    }
+  ]
+}
